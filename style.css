@@ -9,6 +9,9 @@ a {
 h1 {
     margin:0;
 }
+.haut {
+text-align:right;
+}
 #container {
     background-color : white;
     width : 800px;
