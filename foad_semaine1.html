@@ -1,85 +1,83 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Expérience FOAD</title>
-</head>
-<body>
-    <header>
-        <h1 style="text-align:center"> Mon expérience Semaine 1 </h1>
-    </header>
-    <main>
-        <p id="haut"></p>
-        <p><b>Préambule :</b></p>
-        <p>
-          <pre>
-J’ai décidé en semaine 2 de la formation de créer ce site quand j’ai appris que la formule non accompagnée voulait également dire sans exercice durant les 6 mois.
-Je me suis dit qu’il me fallait un objectif pour me motiver et pour apprendre et qu’aussi, le web étant le domaine du partage, il fallait que je mette à disposition 
-des stagiaires suivants mon expérience.
-Je n’ai pas l’intention de faire un doublon du site Simplon, simplement donner chaque semaine des éléments pratiques, concrets qu’il me semble important d’avoir à 
-l’esprit pour ne pas perdre trop de temps à les chercher ou à comprendre comment ça marche. Enfin, je rappelle que le web est une grande communauté, que même si je
-suis seule devant mon écran, sans personne autour de moi pour m’aider, il y a d’abord les autres stagiaires et la plateforme qui sont là pour répondre à mes 
-questions et m’aider à régler mes problèmes, n’est-ce pas Henri ! C’est le point le plus important : ne pas avoir peur de faire appel aux autres pour avancer, mon 
-tour viendra où je pourrai aussi aider, c’est une simple question de temps.
-Enfin, mon idée est de faire une page par semaine, cette page-ci est très dénudée puisqu’en semaine 1, je ne sais pas coder. Je l’ai faite en semaine 2.
-           </pre>
-        </p>
+<!-- foad_semaine1.html -->
+<html>
+    <head>
+        <title> Expèrience FOAD</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1> Mon Expérience FOAD</h1>
+            </div>
+            <div id="content">
+                <div id="nav">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a class="selected" href="Index.html">Accueil</a></li>
+                        <li><a class="selected" href ="foad_semaine1.html">Semaine 1</a></li>
+                        <li><a class="selected" href ="foad_semaine2.html">Semaine 2</a></li>
+                        <li><a class="selected" href ="foad_semaine3.html">Semaine 3</a></li>
+                    </ul>
+                </div>
+                <div id="main">
+                     <h2 id="haut"></h2>
         <p><b>Travail semaine 1:</b></p>
         <p>
             <pre>
 Il est consacré à la connaissance de git et github.
 
-J’ai commencé par lire le programme donné pour la semaine, lire les différents documents et regarder les vidéos. Je me sentais perdue par la masse d’informations à 
+J’ai commencé par lire le programme donné pour la semaine, lire les différents 
+documents et regarder les vidéos. Je me sentais perdue par la masse d’informations à 
 retenir sans trop savoir quoi en faire. 
-J’écris cette page alors que je suis en fin de semaine 2, je peux donc écrire qu’en semaine 1, il est important de savoir :
+J’écris cette page alors que je suis en fin de semaine 2, je peux donc écrire qu’en
+semaine 1, il est important de savoir :
 
-Sous Github : créer un repository (repository = répertoire dans lequel on range les fichiers de code que l’on créera à l’avenir), 
-commenter ses actions (avec readme et par des messages) et connaître les différentes commandes possibles, pour cela le document github – mémento des fonctionnalités
-principales est très bien. Un fichier readme est associé à chaque commande (cliquer sur le 1er icône à gauche de chaque ligne). Taper les commandes en parallèle dans
-github pour comprendre à quoi elles servent.
+Sous Github : créer un repository (repository = répertoire dans lequel on range les
+fichiers de code que l’on créera à l’avenir), commenter ses actions (avec readme et
+par des messages) et connaître les différentes commandes possibles, pour cela le
+document github – mémento des fonctionnalités principales est très bien. Un fichier
+readme est associé à chaque commande (cliquer sur le 1er icône à gauche de chaque
+ligne). Taper les commandes en parallèle dans github pour comprendre à quoi elles
+servent.
 
-Pour les commandes git et leur utilité, je n’ai pas pratiqué en semaine 1 car je ne savais pas entrer du code dans un éditeur mais je m’en suis imprégnée, 
-sont très importantes pour la suite et dès la 2ème semaine, elles m’ont été utiles.
-Dans Openclassroom, il y a un cours gratuit qui s’appelle Gérer son code avec git et github, qui est très bien fait, qui permet de comprendre à quoi servent les
+Pour les commandes git et leur utilité, je n’ai pas pratiqué en semaine 1 car je ne
+savais pas entrer du code dans un éditeur mais je m’en suis imprégnée, elles sont 
+très importantes pour la suite et dès la 2ème semaine, elles m’ont été utiles.
+Dans Openclassroom, il y a un cours gratuit qui s’appelle Gérer son code avec git
+et github, qui est très bien fait, qui permet de comprendre à quoi servent les
 commandes git.
 
 Pour le moment, retenir qu’il existe les commandes :
 
-Git add « nom de fichier.ext » pour ajouter à l’index le fichier (pour qu’il puisse être inclus dans un commit ultérieurement)
+Git add « nom de fichier.ext » pour ajouter à l’index le fichier (pour qu’il puisse
+être inclus dans un commit ultérieurement)
 Git status pour savoir dans quel état sont les fichiers 
-Git log pour avoir l’historique des commits réalisés, appuyer sur q pour quitter le log.
-Git commit –m « message » : Commande très importante qui permet de faire une photographie à l’instant t de l’état dans lequel se trouvent les fichiers que j’ai modifiés
-et donc d’en avoir une trace.
+Git log pour avoir l’historique des commits réalisés, appuyer sur q pour quitter le
+log.
+Git commit –m « message » : Commande très importante qui permet de faire une 
+photographie à l’instant t de l’état dans lequel se trouvent les fichiers que j’ai
+modifiés et donc d’en avoir une trace.
 Git commit –a –m « message » : Très importante aussi.
 Git pull  : permet de récupérer des fichiers dans github
 Git push  : permet d’envoyer des fichiers dans github
 
-Même si cela paraît être du charabia pour le moment, savoir que ça existe et pouvoir y revenir facilement la semaine prochaine est important.
+Même si cela paraît être du charabia pour le moment, savoir que ça existe et pouvoir
+y revenir facilement la semaine prochaine est important.
 
             </pre>
         </p>
-        <p class="haut"
-           style="text-align:right" >
-            <a href="#haut">Haut de page</a>
-        </p>
-    </main>
-    <!--<nav> 
-        <h1> Ceci est la partie navigation</h1>
-    </nav>
-    <aside> 
-        <h1> Ceci est une zone de commentaires</h1>
-    </aside>
-    <article>
-        <h1> Ceci est la zone article</h1>
-    </article>-->
-    
-    <footer>
-        <p> 
-            <pre  style = "text-align : center">
-                Carole DEBUT
+
+
+        <p class="haut">
+        	<a href="#haut">Haut de page</a>
+    	</p>
+                 </div>
+            </div>
+        </div>
+        <div id="footer">
+                Carole DEBUT <br/>
                 Session FOAD du 13/09/15
-            </pre>
-        </p>
-    </footer>
-</body>
+        </div>
+    </body>
 </html>
